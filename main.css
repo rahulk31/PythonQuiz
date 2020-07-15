@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;900&display=swap');
+
+
+/*Reset CSS*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+p{
+  font-size: 1.6rem;
+}
+
+h3{
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+}
+
+.container{
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit{
+  text-align: center;
+}
+
+.options{
+  padding: 1.5rem 0;
+  margin-left: 2rem;
+}
+
+.form-check-label{
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.main-heading{
+  padding: 2rem;
+  background-color: #333;
+}
+
+.main-heading h1{
+  font-family: 'Montserrat', sans-serif;
+  color: aqua;
+  text-align: center;
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.main-heading p{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  padding: 1rem 3rem;
+}
+
+.result{
+  background-color: #333;
+  color: #fff; 
+}
+
+.d-none{
+  display: none;
+}
+
+.result p{
+  text-align: center;
+  padding-bottom: 2rem;
+  font-weight: 300;
+  font-size: 3rem;
+
+}
+
+.result p span{
+  font-weight: 900;
+  font-size: 7rem;
+}
+
+
+.question{
+  padding: 2rem;
+}
+
+
+
+.btn{
+  border: none;
+  padding: 1.3rem 1.5rem;
+  background-color: #000;
+  color: aqua;
+  font-weight: 400;
+  font-size: 1.7rem;
+  border-radius: 5px;
+  margin: 2rem 0%;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px #f4f4f4;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.footer{
+  background-color: #333;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+.footer div{
+  color: #fff;
+}
+
+.footer div p{
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 5rem;
+}
+
